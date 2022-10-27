@@ -29,7 +29,14 @@ header {
 header .logo {
     height: 100%;
 }
-
 main {
+    column-count: 2;
+}
+.columnable {
+    display: grid;
     padding: 20px;
+    grid-template-columns: 30px 100%;
+}
+#top-header {
+    text-align: center;
 }
